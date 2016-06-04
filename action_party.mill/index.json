@@ -1,0 +1,83 @@
+{
+  "snapOnDrag" : true,
+  "millVersion" : 1,
+  "version" : 4,
+  "fixturing" : {
+    "spoilboard" : null,
+    "bracket" : null
+  },
+  "plans" : [
+    "CFB11C02-5FB5-48CE-A8F4-E8C5FA2C5DE8"
+  ],
+  "stock" : {
+    "height" : 76.199,
+    "depth" : 3.098,
+    "flipped" : false,
+    "laminate" : "F9A0AB73-F084-4C4D-9D1B-90450853959F",
+    "offset" : {
+      "y" : 0,
+      "b" : 0,
+      "z" : 0,
+      "x" : 0,
+      "a" : 0,
+      "c" : 0
+    },
+    "width" : 101.6,
+    "name" : "(unknown)",
+    "zrotation" : 0
+  },
+  "displayUnits" : "mm",
+  "showDimensions" : true,
+  "otherplanVersionName" : "release-build",
+  "currentJobUUID" : null,
+  "tools" : [
+    {
+      "group" : "Endmill",
+      "conductive" : "yes",
+      "flutes" : 2,
+      "name" : "1\/32in Flat End Mill",
+      "profile" : [
+        [
+          3.175,
+          36.5,
+          0,
+          0
+        ],
+        [
+          3.175,
+          9.5,
+          0,
+          -1
+        ],
+        [
+          0.79375,
+          1.5875,
+          0,
+          1
+        ],
+        [
+          0.79375,
+          0,
+          0,
+          1
+        ]
+      ],
+      "uuid" : "FFC3953B-A29D-4C22-8263-975B2722ADBC"
+    }
+  ],
+  "showMotionPlan" : true,
+  "otherplanVersion" : "0.14.7",
+  "stepSize" : 1,
+  "laminates" : [
+    {
+      "uuid" : "F9A0AB73-F084-4C4D-9D1B-90450853959F",
+      "group" : "Misc Soft",
+      "name" : "HDPE",
+      "layers" : [
+        {
+          "material" : "hdpe"
+        }
+      ]
+    }
+  ]
+}
